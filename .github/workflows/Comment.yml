@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      repository-projects: write
     steps:
       - uses: actions/github-script@0.8.0
         with:
