@@ -1,0 +1,13 @@
+name: Test
+run-name: Test
+on: [push]
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: linux command
+              run: | 
+                mkdir test dir
+                touch test.txt
+                echo "Done"
+
