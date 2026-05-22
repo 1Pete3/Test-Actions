@@ -11,7 +11,8 @@ jobs:
                 cd test
                 touch test.py
                 sudo apt-get install python3 python-is-python3
-                cat print("Hello World!") > test.py
+                echo "print(\"Hello World!\")" >> test.py
+                
                 python3 test.py
                 echo "Done"
 
