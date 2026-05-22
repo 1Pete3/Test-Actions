@@ -8,6 +8,10 @@ jobs:
             - name: linux command
               run: | 
                 mkdir test dir
-                touch test.txt
+                cd test
+                touch test.py
+                apt install python3 python-is-python3
+                cat print("Hello World!") > test.py
+                python3 test.py
                 echo "Done"
 
