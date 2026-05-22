@@ -12,7 +12,8 @@ jobs:
                 touch test.py
                 
                 echo "print(\"Hello World!\")" >> test.py
-                
                 python3 test.py
                 echo "Done"
+                pwd
+                ls -l
 
